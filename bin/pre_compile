@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+which python3 || echo "python3 not found"
+python3 --version || echo "Unable to get Python version"
+python3 -m pip install setuptools==58.0.0
